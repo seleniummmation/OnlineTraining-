@@ -31,8 +31,8 @@ public class Polymorphism extends OOP {
      * overridden child1 field variable ("boy";) declared in
      * the method (son()) of the parent object(OOP)
      *
-     * It displays child class variable (oh boy) and Not
-     * boy has declared in parent object
+     * Test displays child class variable (oh boy)
+     * when executed and Not "boy" has declared in parent object
      */
 
     @Test
