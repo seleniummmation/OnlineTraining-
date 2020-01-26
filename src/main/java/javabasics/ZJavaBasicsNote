@@ -1,0 +1,56 @@
+//Java Naming Convention
+/**
+ * Java Naming Convention
+ * A class and interface should be declared with upper case letter
+ * Package and method (add, addUser) should be declared with lower case letter
+ * Constants (ADD, ADD_USER) should be declared using capitals
+ */
+
+ //Variables
+ /**
+      * Variable \ field is as an information or value stored to run test
+      * String val ="Hello World",
+      * Int num = 10,
+      */
+
+     //Types of Variables
+     /**
+      * Static variable: Belongs to a class, accessed directly by class
+      * Non-static variable (Instance variable), accessible by an object
+      * Parameter is passed as an argument within a method i.e.AddUser(String username)
+      * Local variable is declared inside a method
+      */
+
+       //Definition of a class, object, method
+          /**
+           * A class is a blueprint that describes the state and behaviour of an object
+           * Its also a building block that contains field, method, constructor
+           *
+           * An object is an instance of a class, they have state and methods
+           *
+           * Methods are group of operations that perform certain functions
+           */
+
+          String username = "Ola";
+
+          String password = "pass";
+
+          static String signInButton = "click";
+
+          public ClassDifo enterUserName() {
+              System.out.println(username);
+              return this;
+          }
+
+          public ClassDifo enterPassword() {
+              System.out.println(password);
+              return this;
+          }
+
+          public static void clickLoginButton() {
+              System.out.println(signInButton);
+          }
+
+          public static void getUsername() {
+              return;
+          }
